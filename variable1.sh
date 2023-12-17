@@ -1,10 +1,9 @@
 #!/bin/bash
 
-person1=Ram
-person2=sham
-Date=$(Date)
+person1=$1
+person2=$2
 
-echo "executed date: ${Date}"
+
 echo "$person1: Hi"
 echo "$person2: Hello"
 echo "$person1: how are you"
